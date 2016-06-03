@@ -1586,9 +1586,21 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #6183b4 !important;
+			color: #d84242 !important;
 			text-decoration: none;
 		}
+
+	.icon-r:hover {
+		color: #d84242 !important;
+	}
+
+	.icon-y:hover {
+		color: #d2b248 !important;
+	}
+
+	.icon-b:hover {
+		color: #275eac !important;
+	}
 
 	strong, b {
 		color: #787878;
@@ -2864,15 +2876,16 @@
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
+				background-size: auto,		auto 50%;
 			}
 
 				#header h1 {
 					font-size: 1.25em;
 				}
 
-					#header h1 br {
+					/*#header h1 br {
 						display: none;
-					}
+					}*/
 
 		/* Footer */
 
@@ -2906,9 +2919,9 @@
 
 		/* Basic */
 
-			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+			/*h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
-			}
+			}*/
 
 		/* List */
 
@@ -2919,9 +2932,9 @@
 		/* Header */
 
 			#header {
-				background-attachment: scroll;
+				/*background-attachment: scroll;*/
 				background-position: top left, center center;
-				background-size: auto,		cover;
+				/*background-size: auto,		50%;*/
 				left: auto;
 				padding: 6em 4em;
 				position: relative;
